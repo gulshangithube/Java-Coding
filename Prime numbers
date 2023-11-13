@@ -1,0 +1,23 @@
+class kapilchauhan{
+public static void main(String[] args){
+
+int n3 = 23;
+int i;
+int flag = 0;
+if(n3==1||n3 ==0){
+System.out.println("Not a prime number");
+}
+else{
+for(i=2;i<=n3;i++){
+if(n3%i==0){
+System.out.println("Not a prime number");
+flag =1;
+break;
+}
+}
+if(flag==0){
+System.out.println("Prime number");
+}
+}
+}
+}
