@@ -1,0 +1,19 @@
+class kapilchauhan{
+public static void main(String [] args ){
+String a, reverse;
+a = "5678990";
+reverse = ""  ;
+int length = a.length();
+for(i = length-1; i>=0; i--){
+reverse = reverse + a.charAt(i);
+}
+if (reverse==a){
+System.out.println("It is a pallindrome number");
+}
+else {
+System.out.println("It is not a pallindrome number");
+}
+}
+}
+
+
