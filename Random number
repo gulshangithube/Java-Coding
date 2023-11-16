@@ -1,0 +1,8 @@
+class kapilchauhan{
+public static void main(String [] args){
+  int range = 567;
+  double a = Math.random();
+  int n = ((int)(a*range))+1;
+  System.out.println(n);
+  }
+  }
